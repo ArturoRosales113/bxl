@@ -1,0 +1,261 @@
+/* Fuentes */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+ */
+.font1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.category-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+
+
+/* Colores */
+.color-gris{
+    color: #BFBEBE;
+}
+.color-gris-2{
+    color: #707070;
+}
+.color-naranja{
+    color: #E23501;
+}
+
+.bg-gris{
+    background-color:#BFBEBE;
+}
+
+.bg-gris-2{
+    background-color: #707070;
+}
+
+.bg-naranja{
+    background-color: #E23501;
+}
+
+/* Altura */
+.h25{
+    min-height: 25vh;
+}
+
+.h50{
+    min-height: 50vh;
+}
+
+.h75{
+    min-height: 75vh;
+}
+
+.h100{
+    min-height: 100vh;
+}
+
+
+/* Botones */
+.aqp-btn-primary{
+    background-color: #FF5C0A;
+    border-radius: 1em;
+    color: #ffffff;
+    padding: .5em;
+}
+.aqp-btn-secondary{
+    background-color: #FFB600;
+    border-radius: 1em;
+    color: #ffffff;
+    padding: .5em;
+}
+
+
+/* Body */
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+body.customize-suppoort{
+    margin-top: 37px;
+}
+
+/* Headers */
+.cover-section{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    max-width: 100%;
+    margin: 0 0 0 0;
+}
+.cover-section.h50{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    max-width: 100%;
+    margin: 0 0 0 0;
+}
+.cover-section.h75{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+    max-width: 100%;
+    margin: 0 0 0 0;
+}
+
+.cover-section.index{
+    background-image: url('../img/Home/index1.jpg');
+}
+
+
+.cover-section.boletos{
+    background-image: url('../img/fotos/file11.jpeg');
+}
+
+.medium-section{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.medium-section.index-actividades{
+    background-image: url('../img/fotos/file15.jpeg');
+}
+
+.aqp-title{
+    background-color: #FFB600;
+    border: 10px solid #22498F;
+    color:#ffffff;
+    display: inline-block;
+    font-weight: 700;
+    padding:.45rem 1rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* Navbar */
+#menu-top-menu li.menu-item a{
+    padding: 0em 1em;
+}
+#menu-top-menu li.menu-item a{
+    color: #707070;
+    font-weight: 700;
+}
+
+.navbar-brand img{
+    width: 3rem;
+}
+/* Footer */
+img.footer-logo{
+    height: 10em;
+}
+
+.footer-link{
+    color:#ffffff;
+}
+
+
+/* Home */
+.card.index-paquetes, 
+.card.index-paquetes img{
+    
+    border-radius:20% 20%  0 0 ;
+}
+
+.card.index-actividades .card-body{
+    background-color: #22498F;
+    color: #ffffff;
+    padding: 3rem 0;
+}
+
+.card.index-actividades, 
+.card.index-actividades img{
+    
+    border-radius: 0 0 20% 20%;
+}
+/* Boletos */
+/* Paquetes */
+.card.paquetes, .card.paquetes .card-body, .card.paquetes img{
+    border-radius: 0 20% 20% 0;
+}
+.card.paquetes .card-body{
+    padding: 0;
+}
+.card.paquetes .card-body p{
+    font-size: 1rem;
+}
+/* Actividades */
+/* Galería */
+/* Contacto */
+
+.product-card .woocommerce-LoopProduct-link{
+    display: block;
+    width: 100%;
+}
+.product-card .woocommerce-LoopProduct-link img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.product-card .woocommerce-loop-product__title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #707070;
+    margin-top: 1em;
+}
+
+.product-card .woocommerce-Price-amount{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #707070;
+}
+
+.product-card .button{
+    margin: .5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #707070;
+
+}
+
+.product-card .onsale{
+    position: absolute;
+    z-index: 99;
+    margin: auto;
+}
+
+
+
+/* Media Queries */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    
+}

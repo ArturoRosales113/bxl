@@ -1,0 +1,4 @@
+2019-05-30T06:24:13+00:00 CRITICAL syntax error, unexpected '...' (T_ELLIPSIS), expecting ')' en /home/vagrant/code/bxl/wp-content/themes/bxl/front-page.php en la línea 119
+
+2019-05-30T07:02:38+00:00 CRITICAL syntax error, unexpected '<', expecting end of file en /home/vagrant/code/bxl/wp-content/themes/bxl/woocommerce/content-product.php en la línea 66
+
